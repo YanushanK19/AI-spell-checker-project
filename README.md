@@ -5,8 +5,24 @@ This project focuses on creating an advanced Tamil Spell and Grammar Checker tha
 This project implements a Tamil grammar checker that takes ungrammatical Tamil sentences as input and provides grammatically corrected sentences as output. It uses an LSTM-based Seq2Seq model with an attention mechanism for better accuracy in handling long sentences and complex structures.
 
 # Project Components
+* Grammar Checker
 
+SVO and Pronoun Correction: Specifically targets errors related to Subject-Verb-Object order and incorrect pronoun usage, crucial for maintaining sentence integrity in Tamil.
 
+Rule-Based Corrections: Applies predefined rules to quickly identify and correct habitual tense errors and ensure subject-verb agreement.
+
+Seq2Seq with LSTM: A sequence-to-sequence model using LSTM neural networks to understand and generate grammatically correct Tamil sentences, capturing deeper linguistic structures and contexts.
+
+* Spell Checker
+
+Levenshtein Distance: Utilizes this algorithm to identify and suggest the smallest edits needed for spelling corrections.
+
+# Features
+
+* Tokenizes and processes Tamil sentences.
+* Corrects grammatical errors in Tamil input.
+* Supports both manual and continuous testing modes.
+* Interactive interface for user input.
 
 # Usage
 Data Preparation

@@ -66,6 +66,6 @@ This tool is ideal for educational platforms, content creation in Tamil media, a
 * Dilushanth S. (2020E034)
 * Yanushan K. (2020E183)
 
-#License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
